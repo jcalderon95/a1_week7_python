@@ -16,10 +16,10 @@ while current_temp is False:
 
     # if it's between 0 and 100, it's liquid
     elif (int(current_temp) < 100):
-        print("water is a liquid. profit!")  
+        print("water is a liquid. profit!")
         current_temp = False
 
-    # if it's above 100, obvi it's a gas    
+    # if it's above 100, obvi it's a gas
     elif (int(current_temp) > 100) or (int(current_temp) == 100):
-         print("water is a vapor, cuz it's HOT") 
-         current_temp = False
+        print("water is a vapor, cuz it's HOT")
+        current_temp = False
